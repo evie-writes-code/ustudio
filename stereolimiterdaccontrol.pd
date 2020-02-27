@@ -1,0 +1,186 @@
+#N canvas 0 23 1307 822 10;
+#X text 101 51 LEFT~;
+#X text 270 51 RIGHT~;
+#X obj 6 257 inlet~;
+#X obj 406 726 dac~;
+#X obj 736 257 inlet~;
+#X text 185 58 VOLUME;
+#X obj 736 459 *~;
+#X obj 6 449 *~;
+#X obj 6 764 outlet~;
+#X obj 736 764 outlet~;
+#X text 101 204 L THRU~;
+#X text 264 204 R THRU~;
+#X msg 109 285 0;
+#X msg 846 287 0;
+#X obj 109 263 loadbang;
+#X obj 846 265 loadbang;
+#X obj 1031 49 f \$0;
+#X obj 16 306 tabwrite \$0-left;
+#X obj 747 309 tabwrite \$0-right;
+#X obj 1031 27 loadbang;
+#X msg 1041 141 \; \$1-right yticks 0 10 2;
+#X msg 1031 181 \; \$1-left yticks 0 10 2;
+#X obj 108 91 cnv 10 40 18 empty empty empty 20 12 0 14 -260262 -66577
+0;
+#X obj 263 92 cnv 10 40 18 empty empty empty 20 12 0 14 -260262 -66577
+0;
+#X obj 263 111 cnv 15 40 17 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 263 147 cnv 15 40 17 empty empty empty 20 12 0 14 -162280 -66577
+0;
+#X obj 263 183 cnv 15 40 19 empty empty empty 20 12 0 14 -99865 -66577
+0;
+#X obj 263 129 cnv 15 40 17 empty empty empty 20 12 0 14 -191407 -66577
+0;
+#X obj 263 165 cnv 15 40 17 empty empty empty 20 12 0 14 -128992 -66577
+0;
+#X obj 108 110 cnv 15 40 17 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 108 146 cnv 15 40 17 empty empty empty 20 12 0 14 -162280 -66577
+0;
+#X obj 108 182 cnv 15 40 19 empty empty empty 20 12 0 14 -99865 -66577
+0;
+#X obj 108 128 cnv 15 40 17 empty empty empty 20 12 0 14 -191407 -66577
+0;
+#X obj 108 164 cnv 15 40 17 empty empty empty 20 12 0 14 -128992 -66577
+0;
+#X obj 16 284 env~ 4096;
+#X obj 747 287 env~ 4096;
+#X obj 736 683 clip~ -1 1;
+#X obj 156 77 hsl 100 30 0.01 1 1 0 \$0-volume_s \$0-volume_r empty
+-2 -8 0 10 -262144 -1 -1 4300 1;
+#X obj 156 135 cnv 10 100 13 empty empty empty 20 12 0 14 -260262 -66577
+0;
+#X obj 156 149 cnv 14 100 13 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X msg 1051 101 \; \$1-output_level yticks 0 100 1;
+#X obj 156 163 cnv 14 100 12 empty empty empty 20 12 0 14 -191407 -66577
+0;
+#X obj 156 176 cnv 14 100 12 empty empty empty 20 12 0 14 -162280 -66577
+0;
+#X obj 156 189 cnv 14 100 12 empty empty empty 20 12 0 14 -128992 -66577
+0;
+#X obj 156 202 cnv 13 100 13 empty empty empty 20 12 0 14 -99865 -66577
+0;
+#X obj 6 673 clip~ -1 1;
+#X msg 121 477 0;
+#X obj 121 455 loadbang;
+#X obj 14 477 env~ 4096;
+#X obj 14 499 tabwrite \$0-output_level;
+#X obj 891 460 loadbang;
+#X obj 750 482 env~ 4096;
+#X obj 750 504 tabwrite \$0-output_level;
+#X msg 891 482 1;
+#N canvas 0 22 450 278 (subpatch) 0;
+#X array \$0-left 1 float 2;
+#X array \$0-l_p 1 float 2;
+#X coords 0 120 1 0 40 110 1 0 0;
+#X restore 108 91 graph;
+#N canvas 539 308 450 278 (subpatch) 0;
+#X array \$0-right 1 float 2;
+#X array \$0-r_p 1 float 2;
+#X coords 0 120 1 0 40 110 1 0 0;
+#X restore 263 92 graph;
+#N canvas 0 22 450 278 (subpatch) 0;
+#X array \$0-output_level 2 float 2;
+#X array \$0-out_peak 2 float 2;
+#X coords 0 120 2 0 100 80 1 0 0;
+#X restore 156 135 graph;
+#X obj 747 351 fexpr~ if($x1 > $y1[-1] || $x2 == 0 \, $x1 \, $y1[-1])
+;
+#X obj 424 177 tgl 15 1 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X obj 747 394 tabwrite~ \$0-r_p;
+#X obj 424 197 metro 1000;
+#X obj 747 373 rmstodb~;
+#X msg 454 249 0;
+#X msg 494 249 1;
+#X obj 750 541 fexpr~ if($x1 > $y1[-1] || $x2 == 0 \, $x1 \, $y1[-1])
+;
+#X obj 750 563 rmstodb~;
+#X obj 750 594 tabwrite~ \$0-out_peak;
+#X msg 676 546 start 1;
+#X obj 14 337 fexpr~ if($x1 > $y1[-1] || $x2 == 0 \, $x1 \, $y1[-1])
+;
+#X obj 14 359 rmstodb~;
+#X obj 15 541 fexpr~ if($x1 > $y1[-1] || $x2 == 0 \, $x1 \, $y1[-1])
+;
+#X obj 15 563 rmstodb~;
+#X obj 15 594 tabwrite~ \$0-out_peak;
+#X obj 494 228 del 3;
+#X obj 454 228 del 2;
+#X obj 676 524 del 1;
+#X obj 14 380 tabwrite~ \$0-l_p;
+#X obj 411 431 line~;
+#X msg 411 409 \$1 10;
+#X obj 411 388 expr if($f1 == 0.01 \, 0 \, $f1);
+#X text 589 73 GUI wrapper for the dac~ object with a logarithmic attenuator
+\, hard limiter set to a range of [-1 \, 1] post attenuation \, and
+level trackers pre and post attenuation;
+#X obj 411 367 r \$0-volume_s;
+#X connect 2 0 7 0;
+#X connect 2 0 34 0;
+#X connect 2 0 68 0;
+#X connect 4 0 6 0;
+#X connect 4 0 35 0;
+#X connect 4 0 57 0;
+#X connect 6 0 36 0;
+#X connect 6 0 51 0;
+#X connect 6 0 64 0;
+#X connect 7 0 45 0;
+#X connect 7 0 48 0;
+#X connect 7 0 70 0;
+#X connect 12 0 17 1;
+#X connect 13 0 18 1;
+#X connect 14 0 12 0;
+#X connect 15 0 13 0;
+#X connect 16 0 21 0;
+#X connect 16 0 20 0;
+#X connect 16 0 40 0;
+#X connect 19 0 16 0;
+#X connect 34 0 17 0;
+#X connect 35 0 18 0;
+#X connect 36 0 9 0;
+#X connect 36 0 3 1;
+#X connect 45 0 8 0;
+#X connect 45 0 3 0;
+#X connect 46 0 49 1;
+#X connect 47 0 46 0;
+#X connect 48 0 49 0;
+#X connect 50 0 53 0;
+#X connect 51 0 52 0;
+#X connect 53 0 52 1;
+#X connect 57 0 61 0;
+#X connect 58 0 60 0;
+#X connect 60 0 73 0;
+#X connect 60 0 74 0;
+#X connect 60 0 75 0;
+#X connect 60 0 72 0;
+#X connect 60 0 59 0;
+#X connect 60 0 76 0;
+#X connect 61 0 59 0;
+#X connect 62 0 57 1;
+#X connect 62 0 64 1;
+#X connect 62 0 68 1;
+#X connect 62 0 70 1;
+#X connect 63 0 57 1;
+#X connect 63 0 64 1;
+#X connect 63 0 68 1;
+#X connect 63 0 70 1;
+#X connect 64 0 65 0;
+#X connect 65 0 66 0;
+#X connect 67 0 66 0;
+#X connect 68 0 69 0;
+#X connect 69 0 76 0;
+#X connect 70 0 71 0;
+#X connect 71 0 72 0;
+#X connect 73 0 63 0;
+#X connect 74 0 62 0;
+#X connect 75 0 67 0;
+#X connect 77 0 6 1;
+#X connect 77 0 7 1;
+#X connect 78 0 77 0;
+#X connect 79 0 78 0;
+#X connect 81 0 79 0;
+#X coords 0 -1 1 1 210 170 2 100 50;

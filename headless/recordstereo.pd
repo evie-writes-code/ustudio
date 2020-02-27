@@ -1,0 +1,41 @@
+#N canvas 0 22 747 449 10;
+#X msg 382 211 open \$1;
+#X obj 255 283 writesf~ 2;
+#X obj 382 188 savepanel;
+#X text 151 44 writes an incoming audio stream to a WAV file on disk.
+;
+#X obj 255 147 inlet~;
+#X obj 312 147 inlet~;
+#X obj 382 127 inlet;
+#X text 240 128 signal left and right;
+#X text 326 107 bang to open save filepath dialog;
+#X obj 512 147 inlet s;
+#X text 423 129 takes a valid filepath w filename to create;
+#X obj 178 174 == 0;
+#X msg 178 238 start;
+#X msg 203 259 stop;
+#X msg 178 196 \$1 bang;
+#X obj 178 107 inlet b;
+#X text 44 88 bang to start recording \, bang again to write to disk
+;
+#X obj 115 328 outlet;
+#X text 18 347 shows the current state of recording \; 1 for live \,
+0 for off;
+#X obj 178 217 route 1 0;
+#X obj 178 152 f 0;
+#X connect 0 0 1 0;
+#X connect 2 0 0 0;
+#X connect 4 0 1 0;
+#X connect 5 0 1 1;
+#X connect 6 0 2 0;
+#X connect 9 0 0 0;
+#X connect 11 0 14 0;
+#X connect 11 0 17 0;
+#X connect 11 0 20 1;
+#X connect 12 0 1 0;
+#X connect 13 0 1 0;
+#X connect 14 0 19 0;
+#X connect 15 0 20 0;
+#X connect 19 0 12 0;
+#X connect 19 1 13 0;
+#X connect 20 0 11 0;

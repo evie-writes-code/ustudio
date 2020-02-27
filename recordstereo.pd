@@ -1,0 +1,28 @@
+#N canvas 0 25 440 498 10;
+#X obj 74 340 inlet~;
+#X obj 108 360 inlet~;
+#X text 200 100 LEFT~;
+#X text 370 100 RIGHT~;
+#X obj 218 124 tgl 40 1 \$0-record_s \$0-record_r empty 17 7 0 10 -260262
+-1 -1 1 1;
+#X text 261 149 to file;
+#X text 261 137 write;
+#X text 261 125 record/;
+#X obj 318 124 bng 40 250 50 0 \$0-open_dialog_s \$0-open_dialog_r
+empty 17 7 0 10 -262144 -1 -1;
+#X text 364 124 open;
+#X text 364 136 new;
+#X text 364 148 file;
+#X obj 41 420 ./headless/recordstereo;
+#X obj 142 380 r \$0-open_dialog_s;
+#X msg 41 441 set \$1;
+#X obj 41 462 s \$0-record_r;
+#X obj 41 319 r \$0-record_s;
+#X text 82 242 GUI wrapper for ustudio/headless/recordstereo;
+#X connect 0 0 12 1;
+#X connect 1 0 12 2;
+#X connect 12 0 14 0;
+#X connect 13 0 12 3;
+#X connect 14 0 15 0;
+#X connect 16 0 12 0;
+#X coords 0 -1 1 1 210 80 2 200 100;
