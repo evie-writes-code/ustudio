@@ -1,0 +1,341 @@
+#N canvas 0 23 1440 855 10;
+#X obj 10 10 cnv 10 20 80 empty \$0-midi_note_0_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 30 10 cnv 10 20 80 empty \$0-midi_note_2_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 50 10 cnv 10 20 80 empty \$0-midi_note_4_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 70 10 cnv 10 20 80 empty \$0-midi_note_5_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 90 10 cnv 10 20 80 empty \$0-midi_note_7_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 110 10 cnv 10 20 80 empty \$0-midi_note_9_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 130 10 cnv 10 20 80 empty \$0-midi_note_11_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 150 10 cnv 10 20 80 empty \$0-midi_note_12_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 170 10 cnv 10 20 80 empty \$0-midi_note_14_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 190 10 cnv 10 20 80 empty \$0-midi_note_16_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 210 10 cnv 10 20 80 empty \$0-midi_note_17_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 230 10 cnv 10 20 80 empty \$0-midi_note_19_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 250 10 cnv 10 20 80 empty \$0-midi_note_21_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 270 10 cnv 10 20 80 empty \$0-midi_note_23_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 290 10 cnv 10 20 80 empty \$0-midi_note_24_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 310 10 cnv 10 20 80 empty \$0-midi_note_26_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 330 10 cnv 10 20 80 empty \$0-midi_note_28_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 350 10 cnv 10 20 80 empty \$0-midi_note_29_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 370 10 cnv 10 20 80 empty \$0-midi_note_31_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 390 10 cnv 10 20 80 empty \$0-midi_note_33_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 410 10 cnv 10 20 80 empty \$0-midi_note_35_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 430 10 cnv 10 20 80 empty \$0-midi_note_36_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 450 10 cnv 10 20 80 empty \$0-midi_note_38_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 470 10 cnv 10 20 80 empty \$0-midi_note_40_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 490 10 cnv 10 20 80 empty \$0-midi_note_41_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 510 10 cnv 10 20 80 empty \$0-midi_note_43_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 530 10 cnv 10 20 80 empty \$0-midi_note_45_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 550 10 cnv 10 20 80 empty \$0-midi_note_47_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 570 10 cnv 10 20 80 empty \$0-midi_note_48_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 590 10 cnv 10 20 80 empty \$0-midi_note_50_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 610 10 cnv 10 20 80 empty \$0-midi_note_52_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 630 10 cnv 10 20 80 empty \$0-midi_note_53_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 650 10 cnv 10 20 80 empty \$0-midi_note_55_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 670 10 cnv 10 20 80 empty \$0-midi_note_57_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 690 10 cnv 10 20 80 empty \$0-midi_note_59_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 710 10 cnv 10 20 80 empty \$0-midi_note_60_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 730 10 cnv 10 20 80 empty \$0-midi_note_62_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 750 10 cnv 10 20 80 empty \$0-midi_note_64_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 770 10 cnv 10 20 80 empty \$0-midi_note_65_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 790 10 cnv 10 20 80 empty \$0-midi_note_67_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 810 10 cnv 10 20 80 empty \$0-midi_note_69_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 830 10 cnv 10 20 80 empty \$0-midi_note_71_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 20 10 cnv 10 20 40 empty \$0-midi_note_1_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 40 10 cnv 10 20 40 empty \$0-midi_note_3_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 80 10 cnv 10 20 40 empty \$0-midi_note_6_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 100 10 cnv 10 20 40 empty \$0-midi_note_8_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 120 10 cnv 10 20 40 empty \$0-midi_note_10_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 160 10 cnv 10 20 40 empty \$0-midi_note_13_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 180 10 cnv 10 20 40 empty \$0-midi_note_15_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 220 10 cnv 10 20 40 empty \$0-midi_note_18_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 240 10 cnv 10 20 40 empty \$0-midi_note_20_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 260 10 cnv 10 20 40 empty \$0-midi_note_22_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 300 10 cnv 10 20 40 empty \$0-midi_note_25_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 320 10 cnv 10 20 40 empty \$0-midi_note_27_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 360 10 cnv 10 20 40 empty \$0-midi_note_30_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 380 10 cnv 10 20 40 empty \$0-midi_note_32_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 400 10 cnv 10 20 40 empty \$0-midi_note_34_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 440 10 cnv 10 20 40 empty \$0-midi_note_37_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 460 10 cnv 10 20 40 empty \$0-midi_note_39_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 500 10 cnv 10 20 40 empty \$0-midi_note_42_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 520 10 cnv 10 20 40 empty \$0-midi_note_44_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 540 10 cnv 10 20 40 empty \$0-midi_note_46_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 580 10 cnv 10 20 40 empty \$0-midi_note_49_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 600 10 cnv 10 20 40 empty \$0-midi_note_51_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 640 10 cnv 10 20 40 empty \$0-midi_note_54_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 660 10 cnv 10 20 40 empty \$0-midi_note_56_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 680 10 cnv 10 20 40 empty \$0-midi_note_58_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 720 10 cnv 10 20 40 empty \$0-midi_note_61_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 740 10 cnv 10 20 40 empty \$0-midi_note_63_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 780 10 cnv 10 20 40 empty \$0-midi_note_66_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 800 10 cnv 10 20 40 empty \$0-midi_note_68_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 820 10 cnv 10 20 40 empty \$0-midi_note_70_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 449 208 inlet;
+#X obj 449 230 unpack f f, f 42;
+#X obj 449 282 route 0, f 13;
+#X obj 524 707 pack f f f;
+#X obj 614 671 loadbang;
+#X obj 614 691 f \$0;
+#X obj 698 421 t f f;
+#N canvas 0 23 723 551 white_black_key 0;
+#X obj 224 192 % 12;
+#X obj 224 278 route 0 2 4 5 7 9 11;
+#X obj 224 234 t f f, f 22;
+#X msg 224 360 0;
+#X msg 482 360 1;
+#X obj 482 278 route 1 3 6 8 10;
+#X obj 224 112 inlet f;
+#X obj 224 464 outlet;
+#X connect 0 0 2 0;
+#X connect 1 0 3 0;
+#X connect 1 1 3 0;
+#X connect 1 2 3 0;
+#X connect 1 3 3 0;
+#X connect 1 4 3 0;
+#X connect 1 5 3 0;
+#X connect 1 6 3 0;
+#X connect 2 0 1 0;
+#X connect 2 1 5 0;
+#X connect 3 0 7 0;
+#X connect 4 0 7 0;
+#X connect 5 0 4 0;
+#X connect 5 1 4 0;
+#X connect 5 2 4 0;
+#X connect 5 3 4 0;
+#X connect 5 4 4 0;
+#X connect 6 0 0 0;
+#X restore 725 441 pd white_black_key;
+#X obj 449 252 swap, f 42;
+#X msg 524 751 \; \$3-midi_note_\$2_r color \$1;
+#X obj 725 462 route 0 1;
+#X obj 449 641 f;
+#X text 797 475 dark grey;
+#X text 747 547 light grey;
+#X obj 261 108 loadbang;
+#X obj 261 170 until;
+#X obj 261 128 t b b, f 8;
+#X msg 306 158 0;
+#X obj 261 190 f, f 8;
+#X obj 306 214 + 1;
+#X msg 261 214 \$1 0;
+#X obj 850 10 cnv 10 20 80 empty \$0-midi_note_72_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 870 10 cnv 10 20 80 empty \$0-midi_note_74_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 890 10 cnv 10 20 80 empty \$0-midi_note_76_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 910 10 cnv 10 20 80 empty \$0-midi_note_77_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 930 10 cnv 10 20 80 empty \$0-midi_note_79_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 950 10 cnv 10 20 80 empty \$0-midi_note_81_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 970 10 cnv 10 20 80 empty \$0-midi_note_83_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 860 10 cnv 10 20 40 empty \$0-midi_note_73_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 880 10 cnv 10 20 40 empty \$0-midi_note_75_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 920 10 cnv 10 20 40 empty \$0-midi_note_78_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 940 10 cnv 10 20 40 empty \$0-midi_note_80_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 960 10 cnv 10 20 40 empty \$0-midi_note_82_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 990 10 cnv 10 20 80 empty \$0-midi_note_84_r empty 20 12 0 14
+-262144 -66577 0;
+#X obj 1010 10 cnv 10 20 80 empty \$0-midi_note_86_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1030 10 cnv 10 20 80 empty \$0-midi_note_88_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1050 10 cnv 10 20 80 empty \$0-midi_note_89_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1070 10 cnv 10 20 80 empty \$0-midi_note_91_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1090 10 cnv 10 20 80 empty \$0-midi_note_93_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1110 10 cnv 10 20 80 empty \$0-midi_note_95_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1000 10 cnv 10 20 40 empty \$0-midi_note_85_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1020 10 cnv 10 20 40 empty \$0-midi_note_87_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1060 10 cnv 10 20 40 empty \$0-midi_note_90_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1080 10 cnv 10 20 40 empty \$0-midi_note_92_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1100 10 cnv 10 20 40 empty \$0-midi_note_94_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1130 10 cnv 10 20 80 empty \$0-midi_note_96_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1150 10 cnv 10 20 80 empty \$0-midi_note_98_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1170 10 cnv 10 20 80 empty \$0-midi_note_100_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1190 10 cnv 10 20 80 empty \$0-midi_note_101_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1210 10 cnv 10 20 80 empty \$0-midi_note_103_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1230 10 cnv 10 20 80 empty \$0-midi_note_105_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1250 10 cnv 10 20 80 empty \$0-midi_note_107_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1140 10 cnv 10 20 40 empty \$0-midi_note_97_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1160 10 cnv 10 20 40 empty \$0-midi_note_99_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1200 10 cnv 10 20 40 empty \$0-midi_note_102_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1220 10 cnv 10 20 40 empty \$0-midi_note_104_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1240 10 cnv 10 20 40 empty \$0-midi_note_106_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1270 10 cnv 10 20 80 empty \$0-midi_note_108_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1290 10 cnv 10 20 80 empty \$0-midi_note_110_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1310 10 cnv 10 20 80 empty \$0-midi_note_112_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1330 10 cnv 10 20 80 empty \$0-midi_note_113_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1350 10 cnv 10 20 80 empty \$0-midi_note_115_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1370 10 cnv 10 20 80 empty \$0-midi_note_117_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1390 10 cnv 10 20 80 empty \$0-midi_note_119_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1280 10 cnv 10 20 40 empty \$0-midi_note_109_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1300 10 cnv 10 20 40 empty \$0-midi_note_111_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1340 10 cnv 10 20 40 empty \$0-midi_note_114_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1360 10 cnv 10 20 40 empty \$0-midi_note_116_r empty 20 12 0
+14 -262144 -66577 0;
+#X obj 1380 10 cnv 10 20 40 empty \$0-midi_note_118_r empty 20 12 0
+14 -262144 -66577 0;
+#X msg 261 148 120;
+#X msg 725 572 240 240 240;
+#X msg 773 492 200 200 200;
+#X msg 524 536 \$1 \$2 \$3;
+#X obj 524 312 t f f f, f 10;
+#X obj 524 494 pack f f f;
+#X obj 552 402 expr 200-($f1*0.25);
+#X obj 581 442 expr 200 - $f1;
+#X obj 524 350 expr 220 + ($f1*0.25);
+#X obj 524 576 uutil/headless/rgbtopdcolour;
+#X obj 725 594 uutil/headless/rgbtopdcolour;
+#X obj 773 514 uutil/headless/rgbtopdcolour;
+#X connect 72 0 73 0;
+#X connect 73 0 80 0;
+#X connect 73 1 80 1;
+#X connect 74 0 83 0;
+#X connect 74 1 145 0;
+#X connect 75 0 81 0;
+#X connect 76 0 77 0;
+#X connect 77 0 75 2;
+#X connect 78 0 75 1;
+#X connect 78 1 79 0;
+#X connect 79 0 82 0;
+#X connect 80 0 74 0;
+#X connect 80 1 78 0;
+#X connect 82 0 142 0;
+#X connect 82 1 143 0;
+#X connect 83 0 75 0;
+#X connect 86 0 88 0;
+#X connect 87 0 90 0;
+#X connect 88 0 141 0;
+#X connect 88 1 89 0;
+#X connect 89 0 90 1;
+#X connect 90 0 92 0;
+#X connect 90 0 91 0;
+#X connect 91 0 90 1;
+#X connect 92 0 73 0;
+#X connect 141 0 87 0;
+#X connect 142 0 151 0;
+#X connect 143 0 152 0;
+#X connect 144 0 150 0;
+#X connect 145 0 149 0;
+#X connect 145 1 147 0;
+#X connect 145 2 148 0;
+#X connect 146 0 144 0;
+#X connect 147 0 146 1;
+#X connect 148 0 146 2;
+#X connect 149 0 146 0;
+#X connect 150 0 75 0;
+#X connect 151 0 83 1;
+#X connect 152 0 83 1;
+#X coords 0 -1 1 1 1400 80 2 10 10;
